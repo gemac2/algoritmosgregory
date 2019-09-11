@@ -1,0 +1,10 @@
+INICIO
+  LEER "valor de la compra del usuario",v
+   Descuento= (v*20)/100
+   MontoFinal= v-descuento
+    SI v>= a 100.000
+      ESCRIBIR "aplica para el descuento del 20%" + MontoFinal
+    SINO
+      ESCRIBIR "no aplica para el descuento del 20%" + v
+    FINSI
+FIN
