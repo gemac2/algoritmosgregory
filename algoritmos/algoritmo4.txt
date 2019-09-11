@@ -1,0 +1,13 @@
+INICIO
+  LEER "Digite el valor del numero entero a quien se le calculara el factorial ", n
+   SI n=0
+    nFactorial= 1
+    ESCRIBIR "El factorial de numero es: " +nFactorial
+   SI n>0
+    nFactorial= n(n-1)(n-2)(n-3)....(1)
+     ESCRIBIR "El factorial de ese numero es: " + nFactorial
+   SINO
+     ESCRIBIR "Error el factorial de ese numero no existe "
+     ERROR 
+   FINSI
+FIN
