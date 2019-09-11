@@ -1,0 +1,37 @@
+INICIO
+  LEER "Digite el valor del primer lado ", a
+  LEER "Digite el valor del segundo lado ", b
+  LEER "Digite el valor del tercer lado ", c
+    SI a>b+c; b>c+a; c>a+b
+      ESCRIBIR "Error, no se puede construir dicho triangulo "
+      ERROR 
+    FINSI
+    SI a=b y b=c 
+      ESCRIBIR "Es un triangulo equilatero cuyas medidas son: " + a + b + c
+    FINSI
+    SI a=b y b≠c; b=c y c≠a; c=a y a≠b
+      ESCRIBIR "Es un triangulo isosceles cuyas medidas son: " + a + b + c
+    FINSI
+    SI a≠b≠c
+      ESCRIBIR "Es un triangulo escaleno cuyas medidas son: " + a + b + c
+    FINSI
+FINAL
+
+/*--mismoejercicio--*/
+INICIO
+  LEER "Digite el valor del primer lado ", a
+  LEER "Digite el valor del segundo lado ", b
+  LEER "Digite el valor del tercer lado ", c
+    SI a>b+c; b>c+a; c>a+b
+      ESCRIBIR "Error, no se puede construir dicho triangulo "
+      ERROR 
+    FINSI
+    SI a=b y b!=c; b=c y c!=a; c=a y a!=b
+      ESCRIBIR "Es un triangulo isosceles cuyas medidas son: " + a + b + c
+    FINSI
+    SI a=b y b=c 
+      ESCRIBIR "Es un triangulo equilatero cuyas medidas son: " + a + b + c
+    SINO
+      ESCRIBIR "Es un triangulo escaleno cuyas medidas son: " + a + b + c
+    FINSI
+FINAL
