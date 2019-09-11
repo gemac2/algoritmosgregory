@@ -1,19 +1,19 @@
 INICIO
-  LEER "Digite el nombre del equipo", equipo
-  LEER "Digite numero de partidos ganados", partidos ganados
-  LEER "Digite numero de partidos empatados", partidos empatados
-  LEER "Digite numero de partidos perdidos", partidos perdidos
-     puntos por partido ganado=ppg
-     puntos por partido empatado= ppe
-     puntos por partido perdido= ppp
-     puntos totales por partidos ganados= partidos ganados * ppg
-     puntos totales por partidos empatados= partidos empatados * ppe
-     puntos totales por partidos perdidos= partidos perdidos * ppg
-     puntuacion final= puntos totales por partidos ganados + puntos totales por partidos empatados + puntos totales por partidos perdidos
-  ESCRIBIR " El equipo" + equipo "tiene" + puntuacion final "puntos."
-      numero de partidos jugados=npj
-    SI npj>10
-      npj= partidos ganados + partidos empatados + partidos perdidos
-       ESCRIBIR " Error, el numero de partidos jugados deben ser maximo 10."
+    LEER "Digite el nombre del equipo", equipo
+    LEER "Digite numero de partidos ganados ", partidosGanados
+    LEER "Digite numero de partidos empatados ", partidosEmpatados
+    LEER "Digite numero de partidos perdidos ", partidosPerdidos
+
+    npj= partidos ganados + partidos empatados + partidos perdidos
+    SI npj>10 
+        ESCRIBIR " Error, el numero de partidos jugados deben ser maximo 10."
+        ERROR
     FINSI
+        
+    puntos totales por partidos ganados= partidos ganados * 6
+    puntos totales por partidos empatados= partidos empatados * 3
+    puntos totales por partidos perdidos= partidos perdidos * 1
+    puntuacion final= puntos totales por partidos ganados + puntos totales por partidos empatados + puntos totales por partidos perdidos
+    ESCRIBIR "El equipo " + equipo + " tiene " + puntuacionFinal " puntos."
+    
 FIN
