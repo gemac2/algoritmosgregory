@@ -1,0 +1,11 @@
+INICIO
+   LEER "Digite su edad ", edad
+    Para i=1; i<=200; i+=1
+       SI edad>=18
+       mayores= mayores+1
+       SINO
+       menores= menores+1
+       FINSI
+      ESCRIBIR "Mayores de edad son: " + mayores + "menores de edad son: " + menores
+    FINPara
+FIN 
