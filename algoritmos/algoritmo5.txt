@@ -1,0 +1,11 @@
+INICIO
+ LEER "Digite el numero inicial ", nI
+ LEER "Digite el numero final ", nF
+   n=1
+    Para i=n; i<= nF; i+=2
+      SI n mod 2 =0
+      ESCRIBIR " El numero es par " , n
+      FINSI
+    FINPara
+FIN
+   
