@@ -1,11 +1,10 @@
 INICIO
   LEER "Digite el valor del numero entero a quien se le calculara el factorial ", n
    SI n>=0
-   n!= n(n-1)!
     x=1 
-     Para i=1; i>=n; i++
+     Para i=n; i>=1; i++
      x=x*i
-      ESCRIBIR "El factorial es: " + x
      FinPara
+      ESCRIBIR "El factorial es: " + x
    FINSI
 FIN
