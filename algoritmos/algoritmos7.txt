@@ -5,6 +5,6 @@ INICIO
     c=a+b
     a=b
     b=c
+     ESCRIBIR "La serie fibonacci es: " + c
    FINPara
-    ESCRIBIR "La serie fibonacci es: " + c
 FIN
