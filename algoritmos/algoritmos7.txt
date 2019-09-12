@@ -1,9 +1,10 @@
 INICIO
-  n=0
-  fibonacci=0
-   Para i=n; i>1000; i+=1
-    Fn= F(n-1) + F(n-2) 
-    fibonacci= fibonacci+1
-    FINPara
-    ESCRIBIR "La serie fibonacci es: " + fibonacci
-FIN 
+  a=0
+  b=1
+   Para i=1; i<1000; i+=1
+    c=a+b
+    a=b
+    b=c
+   FINPara
+    ESCRIBIR "La serie fibonacci es: " + c
+FIN
