@@ -1,6 +1,8 @@
 INICIO
    LEER "Digite su edad ", edad
     Para i=1; i<=200; i+=1
+       mayores=0
+       menores=0
        SI edad>=18
        mayores= mayores+1
        SINO
