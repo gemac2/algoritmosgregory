@@ -12,14 +12,15 @@ INIT
    WRITE "this is the order  ", + c + b + a
   ENDIF
   IF c<a && a<b
-   WRITE "this is the less number ", + c + a + b
+   WRITE "this is the order ", + c + a + b
   ENDIF 
   IF a<c && b<a
-   WRITE "this is the higher number ", + b + a + c
+   WRITE "this is the order ", + b + a + c
   ENDIF
   IF b<c && c<a
-   WRITE "this is the less number ", + b + c + a
+   WRITE "this is the order ", + b + c + a
+  ENDIF
   IF c<b && a<c
-   WRITE "this is the higher number ", + a + c + b
+   WRITE "this is the order ", + a + c + b
   ENDIF
 END
