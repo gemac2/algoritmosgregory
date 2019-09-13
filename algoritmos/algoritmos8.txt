@@ -1,7 +1,7 @@
 INIT
- let int a
- let int b
- let int c
+ int a
+ int b
+ int c
  READ "enter the value of the first number ", a
  READ "enter the value of the second number ", b
  READ "enter the value of the third number ", c
