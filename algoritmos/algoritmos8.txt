@@ -1,18 +1,21 @@
 INIT
+ let int a
+ let int b
+ let int c
  READ "enter the value of the first number ", a
  READ "enter the value of the second number ", b
  READ "enter the value of the third number ", c
-  IF a<b; b<c
+  IF a<b && b<c
    WRITE "this is the order number ", + a + b + c
   ELSE
    WRITE "this is the higher number ", + c + b + a
   ENDIF
-  IF a<c; c<b
+  IF a<c && c<b
    WRITE "this is the less number ", + a + c + b
   ELSE 
    WRITE "this is the higher number ", + b + c + a
   ENDIF
-  IF b<a; c>a
+  IF b<a && c>a
    WRITE "this is the less number ", + b + a + c
   ELSE 
    WRITE "this is the higher number ", + c + a + b
