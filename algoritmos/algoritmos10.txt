@@ -4,9 +4,8 @@ INIT
     READ "Digit the first number ", a
     READ "Digit the second number ", b
     IF b>=a
-    WRITE "Error "
+    Error
     ENDIF
-    IF a<b
         int multiplication=1
         FOR i=a; i<=b; i++
             IF i % 2 ==0
