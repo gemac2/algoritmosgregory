@@ -2,21 +2,21 @@ INIT
   int positives=0
   int negatives=0
   int neutral=0
-  int n=0
   int sumpositives=0
   int sumnegatives=0
    For i=1; i<=40; i++
-    IF n>0
+    READ " Digit the numbers ", n
+     IF n>0
      positives= positives+1
-     sumpositives= sumpositives + positives
-    ENDIF
-    IF n<0
+     sumpositives= sumpositives + n
+     ENDIF
+     IF n<0
      negatives= negatives+1
-     sumnegatives= sumnegatives + negatives
-    ENDIF
-    IF n=0
+     sumnegatives= sumnegatives - n
+     ENDIF
+     IF n=0
      neutral= neutral+1
-    ENDIF
+     ENDIF
    ENDFor
      WRITE "So many numbers are positives: " + positives
      WRITE "So many numbers are negatives: " + negatives
