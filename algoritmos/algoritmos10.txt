@@ -4,7 +4,7 @@ INIT
     READ "Digit the first number ", a
     READ "Digit the second number ", b
     IF b>=a
-        WRITE "Error "
+    WRITE "Error "
     ENDIF
     IF a<b
         int multiplication=1
@@ -14,5 +14,5 @@ INIT
             ENDIF
         ENDFOR
     ENDIF
-    WRITE " the multiplication would be: " + y "= " + multiplication
+    WRITE " the multiplication would be: " + multiplication
 END         
