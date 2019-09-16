@@ -6,6 +6,7 @@ INIT
   int sumnegatives=0
    For i=1; i<=40; i++
     READ " Digit the numbers ", n
+     int n=1
      IF n>0
      positives= positives+1
      sumpositives= sumpositives + n
