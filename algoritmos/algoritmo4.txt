@@ -7,4 +7,4 @@ INICIO
      FinPara
       ESCRIBIR "El factorial es: " + x
    FINSI
-FIN
+FIN 

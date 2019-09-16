@@ -18,7 +18,7 @@ INIT
      IF n=0
      neutral= neutral+1
      ENDIF
-   ENDFor
+    ENDFor
      WRITE "So many numbers are positives: " + positives
      WRITE "So many numbers are negatives: " + negatives
      WRITE "So many numbers are neutral: " + neutral

@@ -1,19 +1,19 @@
 INIT
-    WRITE "Digit the first number ", a
-    WRITE "Digit the second number ", b
-        init a
-        init b
-        init multiplication=1
-        IF a<b
-            init x=0
-            init y=0
-            For i=a; i<=b; i++
-                x=x+i
-                IF x % 2 ==0
-                    y=y+1
-                    multiplication= multiplication * y 
-                ENDIF
-            ENDFOR
-        ENDIF
-            WRITE " the multiplication would be: " + y "= " + multiplication
-End          
+    int a
+    int b
+    READ "Digit the first number ", a
+    READ "Digit the second number ", b
+    int multiplication=1
+    IF a<b
+        init x=0
+        init y=0
+        FOR i=a; i<=b; i++
+            x=x+i
+            IF x % 2 ==0
+                y=y+1
+                multiplication= multiplication * y 
+            ENDIF
+        ENDFOR
+    ENDIF
+    WRITE " the multiplication would be: " + y "= " + multiplication
+END          
