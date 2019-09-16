@@ -15,4 +15,4 @@ INIT
         ENDFOR
     ENDIF
     WRITE " the multiplication would be: " + y "= " + multiplication
-END          
+END         
