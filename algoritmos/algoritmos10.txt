@@ -3,15 +3,14 @@ INIT
     int b
     READ "Digit the first number ", a
     READ "Digit the second number ", b
-    int multiplication=1
+    IF b>=a
+        WRITE "Error "
+    ENDIF
     IF a<b
-        init x=0
-        init y=0
+        int multiplication=1
         FOR i=a; i<=b; i++
-            x=x+i
-            IF x % 2 ==0
-                y=y+1
-                multiplication= multiplication * y 
+            IF i % 2 ==0
+            multiplication= multiplication * i
             ENDIF
         ENDFOR
     ENDIF
