@@ -3,6 +3,5 @@ INIT
     READ "Digit the number ", a
         FOR i=1; i<=a; i++
             WRITE "* "
-            i=i+1
         ENDFOR
 END 
