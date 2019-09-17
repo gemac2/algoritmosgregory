@@ -1,4 +1,4 @@
-Algoritmo descuentocompra
+Algoritmo descuentoCompra
 	Escribir "digite el valor de su compra"
 	Leer v
 	definir descuento como entero

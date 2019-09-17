@@ -16,4 +16,4 @@ INICIO
     puntuacion final= puntos totales por partidos ganados + puntos totales por partidos empatados + puntos totales por partidos perdidos
     ESCRIBIR "El equipo " + equipo + " tiene " + puntuacionFinal " puntos."
     
-FIN
+FIN 
