@@ -4,7 +4,7 @@ INIT
     READ "Digit the first number ", a
     READ "Digit the second number ", b
     IF b>=a
-    ERROR
+    ERROR "Error you entered correct data "
     ENDIF
         int multiplication=1
         FOR i=a; i<=b; i++
