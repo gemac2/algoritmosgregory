@@ -1,0 +1,10 @@
+INIT
+    int n
+    int multiplication
+    FOR i=1; i>=10; i++
+        FOR n=1; n>=10; n++
+            multiplication=n*i
+            WRITE i + "x " + n + "= " + multiplication \n
+        ENDFOR
+    ENDFOR
+END
