@@ -1,4 +1,4 @@
-Algoritmo Equipopuntos
+Algoritmo EquipoPuntos
 	ESCRIBIR "Digite el nombre del equipo"
 	LEER equipo
     ESCRIBIR "Digite numero de partidos ganados "
