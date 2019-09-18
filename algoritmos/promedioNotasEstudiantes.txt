@@ -1,0 +1,15 @@
+INIT
+    int numStudents
+    int note1
+    int note2
+    int note3
+    int average
+     READ "Digit the number of students ", numStudents
+        FOR i=1; i>=numStudents; i++
+            READ "Digit the first note", note1
+            READ "Digit the first note", note2
+            READ "Digit the first note", note3
+            average=(note1+note2+note3)/3
+            WRITE "The student " " " + i " " "Has an average of " + average
+        ENDFOR
+END
