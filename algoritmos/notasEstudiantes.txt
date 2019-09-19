@@ -1,0 +1,12 @@
+INIT
+    int numberOfStudents
+    int note
+    note[numberOfStudents]
+    READ "Digit the total number of students", numberOfStudents
+        FOR i=1; i>=numberOfStudents; i++
+            READ "Digit the note of student" " "+i, note[i]
+        ENDFOR
+            FOR i=1; i>=numberOfStudents; i++  
+                WRITE "The student",i " " "got a final score of: ", note[i]
+            ENDFOR
+END 
