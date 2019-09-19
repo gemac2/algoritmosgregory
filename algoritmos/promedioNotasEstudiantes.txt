@@ -10,6 +10,8 @@ INIT
             READ "Digit the first note", note2
             READ "Digit the first note", note3
             average=(note1+note2+note3)/3
-            WRITE "The student " " " + i " " "Has an average of " + average
         ENDFOR
+            FOR n=1; i>=numStudents; i++
+               WRITE "The student " " " + n " " "Has an average of " + average
+            ENDFOR
 END

@@ -1,0 +1,12 @@
+INIT
+    int numberOfNotes
+    int note
+    int sumOfNote=0
+    READ "Digit the total number of notes", numberOfNotes
+        FOR i=1; i>=numberOfNotes; i++
+            READ "Digit the note" " "+i, note
+            sumOfNote=sumOfNote+note
+            average=sumOfNote/numberOfNotes
+        ENDFOR
+    WRITE "The student average is" " " average
+END 
