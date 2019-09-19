@@ -1,0 +1,12 @@
+INIT
+    int numberArray
+    value[numberArray]
+
+    READ "Digit the value of numbers to stored in the array ", numberArray
+        FOR i=1; i<=numberArray; i++
+            READ "Digit the value" " "+i, value[i]
+        ENDFOR
+            FOR i=1; i<=numberArray; i++  
+                WRITE " " + value[i] \n
+            ENDFOR
+END 
