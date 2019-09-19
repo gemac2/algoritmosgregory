@@ -6,7 +6,7 @@ INIT
         FOR i=1; i>=numberOfNotes; i++
             READ "Digit the note" " "+i, note
             sumOfNote=sumOfNote+note
-            average=sumOfNote/numberOfNotes
         ENDFOR
+    average=sumOfNote/numberOfNotes
     WRITE "The student average is" " " average
 END 

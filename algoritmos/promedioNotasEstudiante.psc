@@ -6,7 +6,8 @@ Algoritmo promedioNotasEstudiante
 		ESCRIBIR "Digite nota", i
 		LEER nota
 		sumNotas<-sumNotas+nota
-		promedio<-(sumNotas/numeroNotas)
+		
 	Fin Para
-	   ESCRIBIR "El promedio del estudiante es", " " promedio
+	promedio<-(sumNotas/numeroNotas)
+	ESCRIBIR "El promedio del estudiante es", " " promedio
 FinAlgoritmo
